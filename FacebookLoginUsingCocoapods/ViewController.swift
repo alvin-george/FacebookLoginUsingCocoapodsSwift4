@@ -20,7 +20,6 @@ class ViewController: UIViewController, FBSDKLoginButtonDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         facebookLoginButton.delegate =  self
         verifyInitialAccessToFacebook()
     }
